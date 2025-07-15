@@ -1,5 +1,11 @@
 # toml4j
 
+A fork of [mwanji/toml4j](https://github.com/mwanji/toml4j) with some fixes and updates.
+
+Compatible with the original lib.
+
+Basic README: 
+
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 toml4j is a [TOML 0.4.0](https://github.com/toml-lang/toml/blob/master/versions/en/toml-v0.4.0.md) parser for Java.
