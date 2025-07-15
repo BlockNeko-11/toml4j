@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.moandjiezana.toml</groupId>
   <artifactId>toml4j</artifactId>
-  <version>0.7.3-SNAPSHOT</version>
+  <version>0.7.3</version>
   <name>toml4j</name>
   <description>A parser for TOML</description>
-  <url>http://moandjiezana.com/toml/toml4j</url>
+  <url>https://github.com/BlockNeko-11/toml4j</url>
   <licenses>
     <license>
       <name>The MIT License</name>
@@ -14,30 +14,35 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:mwanji/toml4j.git</connection>
-    <developerConnection>scm:git:git@github.com:mwanji/toml4j.git</developerConnection>
-    <url>https://github.com/mwanji/toml4j</url>
+    <connection>scm:git:git@github.com:BlockNeko-11/toml4j.git</connection>
+    <developerConnection>scm:git:git@github.com:BlockNeko-11/toml4j.git</developerConnection>
+    <url>https://github.com/BlockNeko-11/toml4j</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>Github Issues</system>
-    <url>https://github.com/mwanji/toml4j/issues</url>
+    <url>https://github.com/BlockNeko-11/toml4j/issues</url>
   </issueManagement>
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/mwanji/toml4j</url>
+    <system>GitHub Actions</system>
+    <url>https://github.com/BlockNeko-11/toml4j/actions</url>
   </ciManagement>
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
+    <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io</url>
+    </repository>
   </distributionManagement>
   <developers>
     <developer>
       <id>moandji.ezana</id>
       <name>Moandji Ezana</name>
       <email>mwanji@gmail.com</email>
+    </developer>
+
+    <developer>
+      <id>BlockNeko-11</id>
+      <name>Block Neko</name>
     </developer>
   </developers>
   <inceptionYear>2013</inceptionYear>
@@ -72,8 +77,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.1</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
